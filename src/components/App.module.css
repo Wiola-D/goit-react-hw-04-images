@@ -1,0 +1,50 @@
+@import url(./Modal/Modal.module.css);
+@import url(./Loader/Loader.module.css);
+@import url(./Button//Button.module.css);
+@import url(./ImageGallery/ImageGallery.module.css);
+@import url(./ImageGalleryItem/ImageGalleryItem.module.css);
+@import url(./Searchbar/Sarchbar.module.css);
+
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: #212121;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-bottom: 40px;
+}
+p {
+  color: #fff;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
